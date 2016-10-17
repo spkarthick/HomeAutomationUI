@@ -1,0 +1,31 @@
+footer {
+	position: fixed;
+	bottom: 0px;
+	left:0px;
+	width: 100%;
+	background: #363636;
+	color: #fff;
+	height: 60px;
+	font-size: 12px;
+	line-height: initial;
+}
+
+footer .tab-item {
+	height: 60px;
+    padding: 8px;
+}
+
+footer .tab-item .icon { 
+	font-size: 25px;
+	margin-bottom: 10px;
+	display: inline-block;
+    margin-bottom: 6px;
+}
+
+footer .tab-item.active {
+	color: #00ebc1;
+	background: rgba(0,0,0,0.2);
+    box-shadow: 0px 2px 16px #000 inset
+}
+
+footer a.tab-item { color: inherit; text-decoration: inherit; } 

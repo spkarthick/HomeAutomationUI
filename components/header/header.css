@@ -1,0 +1,362 @@
+header {
+	position: relative;
+	top: 0px;
+	left:0px;
+	width: 100%;
+	color: #fff;
+	min-height: 50px;
+	font-size: 12px;
+	line-height: 30px;
+}
+
+header>.container-fluid,header>.container-fluid>.row,header>.container-fluid>.row .daytime,header>.container-fluid>.row .alerts-panel  {
+	height: 100%;
+	line-height: 50px;
+}
+
+header .alerts-panel {
+	background: #474e4d;
+	padding-left: 20px;
+	padding-right: 50px;
+	color: #8c8e8e;
+	position:relative;
+	font-size: 14px;
+}
+
+header .notification-panel {
+	position: absolute;
+    width: 100%;
+    height: 100vh;
+    background: rgba(71,78,77,0.9);
+    top: 0px;
+    left: 0px;
+    z-index: 10;
+}
+
+header .notification-scroll{
+	overflow:scroll;
+	height: calc(100vh - 40px);
+	padding-bottom: 40px;
+}
+
+header .notification-panel .panel-default {
+	border-color: rgba(51,51,51,0.6);
+	background: rgba(51,51,51,0.6);
+	border-radius: none;
+}
+
+header .notification-panel .panel-default  .fa-warning {
+	font-size: 40px;
+}
+
+header .notification-panel .panel-default  .title-text {
+	font-size: 15px;
+	position: relative;
+	top: -3px;
+	font-weight: bold;
+	line-height: initial;
+}
+
+header .notification-panel .panel-default  button {
+	width: 100px;
+    margin-right: 15px
+}
+
+header .notification-panel .panel-default  .desc {
+	line-height: initial;
+}
+
+header .notification-panel .past-notification {
+	line-height: 22px;
+	margin: 10px 0px;
+}
+
+header .alerts-panel .fa-microphone {
+	font-size: 23px;
+	position: relative;
+    top: 3px;
+}
+
+header .time {
+	font-size: 16px;
+	font-weight: bold;
+	margin-left: 15px;
+}
+
+header .day {
+	font-size: 16px;
+	margin-left: 20px;
+}
+
+header .daytime {
+	background: #333;
+	max-height: 50px;
+}
+
+header .notification-bars {
+	position:absolute;
+	width: 100%;
+	bottom: 0px;
+}
+
+.white-color{
+	color: #fff;
+}
+.light-color {
+	color: rgba(0,0,0,0.4);
+}
+
+.appliance-panel {
+	min-height: 400px;
+	color: #fff;
+}
+
+.appliance-panel h4 {
+	display: inline-block;
+}
+.people-panel {
+	padding: 20px;
+}
+.people-panel .media-body h4 {
+	margin: 3px 0px;
+}
+
+.people-panel .media-body {
+	vertical-align: middle;
+	width:auto;
+}
+.people-panel .media.disabled {
+	opacity: 0.5;
+}
+.people-panel .media{
+	display: inline-block;
+	margin-right: 75px;
+}
+.theme-color {
+	color: #00ebc1;
+}
+
+.theme-bg-color {
+	background: #00ebc1;
+}
+
+.offset-top-30 {
+	margin-top: 30px;
+}
+
+.offset-top-40 {
+	margin-top: 40px;
+}
+.height-300 {
+	height: 300px;
+}
+
+.height-220 {
+	height: 220px;
+}
+.line-height-275 {
+	line-height: 275px;
+}
+.line-height-135 {
+	line-height: 135px;
+}
+.appliance-panel .fa-cog {
+	font-size: 50px;
+	border-radius: 65px;
+    border: 1px solid #fff;
+    height: 60px;
+    width: 60px;
+    line-height: 58px;
+    background: #fff;
+}
+.home-calender {
+	color: rgba(0,0,0,0.2);
+}
+.appliance-panel-content {
+	font-size: 110px;
+	text-align: center;
+	color: rgba(0,0,0,0.2);
+	overflow-y: hidden;
+    overflow-x: scroll;
+    white-space: nowrap;
+    width: 100%;
+}
+.appliance-panel-content .scroll-item .equ-height:first-child {
+	height:200px;
+	line-height: 205px;
+}
+
+.appliance-panel-content .scroll-item .equ-height:last-child {
+	height:200px;
+	line-height: 115px;
+}
+.appliance-panel-content>div {
+	width: 100%;
+    display: inline-block;
+	vertical-align: top;
+}
+.appliance-panel-content .equ-height {
+	height:200px;
+}
+.reminder-day {
+	font-size: 40px;
+}
+
+.reminder-time {
+	font-size: 60px;
+}
+
+.reminder-desc {
+	margin-top: 30px;
+	font-size: 25px;
+}
+.sides-padding-20 {
+	padding: 0px 20px;
+}
+
+.appliance-update {
+	padding: 0px 30px;
+}
+
+.appliance-title {
+	border-top: 8px solid #1aa28a;
+	width: 150px;
+}
+
+.appliance-panel a.add{
+	width: 30px;
+    height: 30px;
+	line-height: 30px;
+	text-align: center;
+	color: #fff;
+	background: rgba(0,0,0,0.4);
+}
+
+.offset-bottom-30 {
+	margin-bottom: 30px;
+}
+[ui-view] {
+	overflow: scroll;
+}
+
+[ui-view]>*>div {
+	margin-bottom:155px;
+}
+
+::-webkit-scrollbar {
+    height: 5px;
+	width: 5px;
+	background-color: rgba(0,0,0,0.2);
+}
+ 
+::-webkit-scrollbar-thumb {
+  background-color: white;
+}
+
+@media screen and (min-width: 1030px) and (max-width: 1349px) {
+	
+}
+
+@media screen and (min-width: 768px) and (max-width: 1029px) {
+	.appliance-panel-content .scroll-item .equ-height {
+		height:200px;
+		line-height: 175px;
+	}
+	
+	.appliance-panel-content {
+		font-size: 75px;
+	}
+	
+	.appliance-panel-content .scroll-item .equ-height:first-child {
+		height:200px;
+		line-height: 205px;
+	}
+	
+	.appliance-panel-content .scroll-item .equ-height:last-child {
+		height:200px;
+		line-height: 145px;
+	}
+	
+	.appliance-panel .fa-cog {
+		font-size: 30px;
+		border-radius: 65px;
+		border: 1px solid #fff;
+		height: 40px;
+		width: 40px;
+		line-height: 39px;
+		background: #fff;
+	}
+}
+
+@media screen and (min-width: 560px) and (max-width: 767px) {
+	.appliance-panel-content {
+		font-size: 90px;
+	}
+	
+	.appliance-panel-content .scroll-item .equ-height:first-child {
+		height:100px;
+		line-height: 140px;
+	}
+	
+	.appliance-panel-content .scroll-item .equ-height:last-child {
+		height:100px;
+		line-height: 55px;
+	}
+}
+
+@media screen and (max-width: 559px) {
+	.appliance-panel-content {
+		font-size: 55px;
+	}
+	
+	.appliance-panel-content .scroll-item .equ-height:first-child {
+		height:100px;
+		line-height: 120px;
+	}
+	
+	.appliance-panel-content .scroll-item .equ-height:last-child {
+		height:100px;
+		line-height: 80px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	
+	.appliance-panel .fa-cog {
+		font-size: 30px;
+		border-radius: 65px;
+		height: 40px;
+		width: 40px;
+		line-height: 39px;
+	}
+	
+	.appliance-panel-content .scroll-item .equ-height {
+		height:100px;
+		line-height: 100px;
+	}
+	
+	.reminder-day {
+		font-size: 30px;
+	}
+
+	.reminder-time {
+		font-size: 40px;
+	}
+
+	.reminder-desc {
+		margin-top: 20px;
+		font-size: 20px;
+	}
+	
+	.offset-sm-top-10 {
+		margin-top: 10px;
+	}
+	
+	.offset-sm-bottom-20 {
+		margin-bottom: 20px;
+	}
+	
+	.offset-sm-top-0 {
+		margin-top: 0px;
+	}
+}
